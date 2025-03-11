@@ -6,7 +6,7 @@ chai.use(require('chai-string'));
 
 const expect = chai.expect;
 
-const srcMd = fs.readFileSync('README.md', 'utf8');
+const srcMd = fs.readFileSync('../README.md', 'utf8');
 
 describe('Checklist', function() {
   describe('Header', function() {
@@ -24,7 +24,9 @@ describe('Checklist', function() {
         '## Resources',
         '## Credits',
         '## Other How They... repos',
+        '## Contributors',
         '## Contribute',
+        '## Stargazers Over Time',
         '## License'];
       const actualList = srcMd.match(/^## (.*$)/gim);
       expect(actualList).to.equalTo(expectedH2List);

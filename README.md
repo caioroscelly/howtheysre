@@ -1,18 +1,16 @@
 # How they SRE
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) [![CI](https://github.com/upgundecha/howtheysre/actions/workflows/workflow.yml/badge.svg)](https://github.com/upgundecha/howtheysre/actions/workflows/workflow.yml)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) [![CI](https://github.com/upgundecha/howtheysre/actions/workflows/workflow.yml/badge.svg)](https://github.com/upgundecha/howtheysre/actions/workflows/workflow.yml) [![CodeQL](https://github.com/upgundecha/howtheysre/actions/workflows/codeql.yml/badge.svg)](https://github.com/upgundecha/howtheysre/actions/workflows/codeql.yml)
 
 ![How they SRE](headline.png)
 
-> A curated collection of publicly available resources on how technology and tech-savvy organizations around the world practice Site Reliability Engineering (SRE)
+</br>
 
 ## Introduction
 
-__How They SRE__ is a curated knowledge repository of best practices, tools, techniques, and culture of SRE adopted by the leading technology or tech-savvy organizations.
+__How They SRE__ How They SRE is a curated knowledge repository of Site Reliability Engineering (SRE) best practices, tools, techniques, and culture adopted by leading technology or tech-savvy organizations.
 
-Many organizations regularly come forward and share their best practices, tools, techniques and offer an insight into engineering culture on various public platforms like engineering blogs, conferences & meetups. The content is curated from these avenues and shared in this repository.
-
-_Note to readers: This list refers to some of the articles, posts, videos, tools, and techniques published before 2015. Please use such material with caution as there may be recent advances in technology and practices which offer better alternatives and perspectives._
+Numerous organizations frequently share their insights and expertise, encompassing best practices, tools, and techniques that shape their engineering culture. They do this through various public platforms such as engineering blogs, conferences, and meetups. This repository compiles and presents content gathered from these sources.
 
 ### Topics
 
@@ -28,6 +26,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * Chaos Engineering
 * Automation
 * Performance
+* Platform Engineering
 
 ## Organizations
 
@@ -38,6 +37,9 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 * [Enter the Abattoir - Building 'à la carte' gitops tooling](https://achievers.engineering/enter-the-abattoir-ee5e2019f0b3)
 * [Scaling Production Globally — The service mesh facelift (Part-1)](https://achievers.engineering/scaling-production-globally-service-mesh-face-lift-part-1-30ad6d393d04)
+* [Scaling Production Globally - Solving observability problems for developers (Part-2)](https://achievers.engineering/scaling-production-globally-solving-observability-problems-for-developers-part-2-b5416ce5eb8a)
+* [Load Testing Kubernetes: Building a Framework (Part-1)](https://achievers.engineering/load-testing-kubernetes-building-a-framework-part-1-bdc0af4ae7e2)
+* [Load Testing Kubernetes: Resolving bottlenecks and improving performance (Part-2)](https://achievers.engineering/load-testing-kubernetes-resolving-bottlenecks-and-improving-performance-part-2-c4f08102f105)
 
 </details>
 
@@ -46,9 +48,16 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Automated Incident Management Through Slack](https://medium.com/airbnb-engineering/incident-management-ae863dc5d47f)
 * [Detecting Vulnerabilities With Vulnture](https://medium.com/airbnb-engineering/detecting-vulnerabilities-with-vulnture-f5f23387f6ec)
 * [Alerting Framework at Airbnb](https://medium.com/airbnb-engineering/alerting-framework-at-airbnb-35ba48df894f)
 * [When The Cloud Gets Dark — How Amazon’s Outage Affected Airbnb](https://medium.com/airbnb-engineering/when-the-cloud-gets-dark-how-amazons-outage-affected-airbnb-66eaf8c0f162)
+* [Intelligent Automation Platform: Empowering Conversational AI and Beyond at Airbnb](https://medium.com/airbnb-engineering/intelligent-automation-platform-empowering-conversational-ai-and-beyond-at-airbnb-869c44833ff2)
+* [Production Secret Management at Airbnb](https://medium.com/airbnb-engineering/production-secret-management-at-airbnb-ad230e1bc0f6)
+* [Automating Data Protection at Scale, Part 1](https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-1-c74909328e08)
+* [Automating Data Protection at Scale, Part 2](https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-2-c2b8d2068216)
+* [Automating Data Protection at Scale, Part 3](https://medium.com/airbnb-engineering/automating-data-protection-at-scale-part-3-34e592c45d46)
+* [Dynamic Kubernetes Cluster Scaling at Airbnb](https://medium.com/airbnb-engineering/dynamic-kubernetes-cluster-scaling-at-airbnb-d79ae3afa132)
 
 </details>
 
@@ -59,6 +68,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 * [May 30 SSL incident](https://www.algolia.com/blog/may-30-ssl-incident/)
 * [A Journey Into SRE](https://www.algolia.com/blog/a-journey-into-sre/)
+* [CI/CDay 2024: What makes a good CI/CD platform?](https://www.algolia.com/blog/engineering/cicday-2024-what-makes-a-good-ci-cd-platform/)
 
 </details>
 
@@ -81,6 +91,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [How Asana ships stable web application releases](https://blog.asana.com/2021/01/asana-engineering-ships-web-application-releases/)
 * [Analysis of recent downtime & what we’re doing to prevent future incidents](https://blog.asana.com/2019/09/downtime-what-were-doing-to-prevent-future-downtime/)
 * [Developer environment: Achieving reliability by making it fast to reset](https://blog.asana.com/2017/07/developer-environment-making-it-reliable-by-making-it-fast-to-reset/)
+* [Three security tactics for every IT leader to consider this fall](https://blog.asana.com/2022/08/it-security-hybrid-workers/)
 
 </details>
 
@@ -171,6 +182,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Videos
 
+* [Sailing the Database Seas: Applying SRE Principles at Scale](https://www.usenix.org/conference/srecon24emea/presentation/androulidakis)
 * [SLOs for Data-Intensive Services](https://www.usenix.org/conference/srecon19emea/presentation/fouquet)
 * [Benefits of Taking the Less Traveled Road with Containers Infrastructure](https://www.usenix.org/conference/srecon19americas/presentation/iacoboaia)
 
@@ -217,12 +229,6 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
-* [A Deep Dive into the Recent BCH Hard Fork Incident](https://blog.coinbase.com/a-deep-dive-into-the-recent-bch-hard-fork-incident-2ee14132f435)
-* [Blockchain Infrastructure at Coinbase](https://blog.coinbase.com/blockchain-infrastructure-at-coinbase-366c09dbcef4)
-* [Logs, metrics, and the evolution of observability at Coinbase](https://blog.coinbase.com/logs-metrics-and-the-evolution-of-observability-at-coinbase-13196b15edb7)
-* [Reliability Engineering at Coinbase](https://blog.coinbase.com/reliability-engineering-at-coinbase-8b6956ba802f)
-* [Introducing Salus: How Coinbase scales security automation](https://blog.coinbase.com/introducing-salus-how-coinbase-scales-security-automation-1ba5e8074937)
-* [How Coinbase Builds Secure Infrastructure To Store Bitcoin In The Cloud](https://blog.coinbase.com/how-coinbase-builds-secure-infrastructure-to-store-bitcoin-in-the-cloud-30a6504e40ba)
 * [Open Sourcing Coinbase’s Secure Deployment Pipeline](https://blog.coinbase.com/open-sourcing-coinbases-secure-deployment-pipeline-ae6c78e25517)
   
 </details>
@@ -241,6 +247,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Presenting at iThome’s SRE Conference: Our DBS SRE Transformation Journey Thus Far](https://medium.com/dbs-tech-blog/presenting-at-ithomes-sre-conference-our-dbs-sre-transformation-journey-thus-far-9b6778ce53e8)
 * [Debunking the seven most popular Site Reliability Engineering myths](https://medium.com/dbs-tech-blog/debunking-the-seven-most-popular-site-reliability-engineering-myths-a3be8d870ff2)
 * [How To Use SRE To Cultivate A Blameless Culture In The Workplace](https://medium.com/dbs-tech-blog/how-to-use-sre-to-cultivate-a-blameless-culture-in-the-workplace-1981fd1c7871)
 * [Site Reliability Engineering at DBS Bank](https://medium.com/dbs-tech-blog/site-reliability-engineering-at-dbs-bank-32c02228ccf4)
@@ -290,6 +297,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Atlas: Our journey from a Python monolith to a managed platform](https://dropbox.tech/infrastructure/atlas--our-journey-from-a-python-monolith-to-a-managed-platform)
 * [Monitoring server applications with Vortex](https://dropbox.tech/infrastructure/monitoring-server-applications-with-vortex)
 * [Athena: Our automated build health management system](https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system)
+* [Interested in becoming a Site Reliability Engineer?](https://tammybutow.medium.com/graduating-from-bootcamp-and-interested-in-becoming-a-site-reliability-engineer-b69a38ce858b)
 
 ### Videos
 
@@ -306,6 +314,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [SRE Case Study: Triaging a Non-Heap JVM Out of Memory Issue](https://tech.ebayinc.com/engineering/sre-case-study-triage-a-non-heap-jvm-out-of-memory-issue/)
 * [SRE Case Study: Mysterious Traffic Imbalance](https://tech.ebayinc.com/engineering/sre-case-study-mysterious-traffic-imbalance/)
 * [Zero Downtime, Instant Deployment and Rollback](https://tech.ebayinc.com/engineering/zero-downtime-instant-deployment-and-rollback/)
+* [How eBay’s Notification Platform Used Fault Injection in New Ways](https://innovation.ebayinc.com/tech/engineering/how-ebays-notification-platform-used-fault-injection-in-new-ways/)
 
 ### Video
 
@@ -349,6 +358,8 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 ### Blog Posts
 
 * [Automating Performance Standards](https://medium.com/expedia-group-tech/automating-performance-standards-b51efc92d237)
+* [Error Budget Policy - Part 1 - Adoption at Expedia Group](https://medium.com/expedia-group-tech/error-budget-policy-adoption-at-expedia-group-7d80d41c4a8b)
+* [Error Budget Policy - Part 2 - Practices at Expedia Group](https://medium.com/expedia-group-tech/error-budget-policies-in-practice-4c98f56a28c1)
 * [Using Fault-Injection to Improve our new Runtime Platform’s Reliability](https://medium.com/expedia-group-tech/using-fault-injection-to-improve-our-new-platforms-reliability-656b1147b132)
 * [Learning from Incidents at Expedia Group](https://medium.com/expedia-group-tech/learning-from-incidents-at-expedia-group-51a8c72a4286)
 * [Improving Vrbo Homepage Loading Experience](https://medium.com/expedia-group-tech/improving-vrbo-homepage-loading-experience-e4b2207535f4)
@@ -375,6 +386,17 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 </details>
 
 <details>
+  <summary>G-Research</summary>
+
+### Blog Posts
+
+* [Our SRE Journey at G-Research](https://www.gresearch.com/blog/article/our-sre-journey-at-g-research/)
+* [The SRE Journey Continues](https://www.gresearch.com/blog/article/the-sre-journey-continues/)
+* [OpenTSDB Meta Cache – trade-offs for performance](https://www.gresearch.com/blog/article/opentsdb-meta-cache-trade-offs-for-performance/)
+
+</details>
+
+<details>
   <summary>Getaround</summary>
 
 ### Blog Posts
@@ -389,8 +411,18 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [How we improved availability through iterative simplification](https://github.blog/engineering/engineering-principles/how-we-improved-availability-through-iterative-simplification/)
+* [How we improved push processing on GitHub](https://github.blog/engineering/architecture-optimization/how-we-improved-push-processing-on-github/)
+* [How GitHub uses merge queue to ship hundreds of changes every day](https://github.blog/engineering/engineering-principles/how-github-uses-merge-queue-to-ship-hundreds-of-changes-every-day/)
+* [Fixing security vulnerabilities with AI](https://github.blog/engineering/platform-security/fixing-security-vulnerabilities-with-ai/)
+* [GitHub’s Engineering Fundamentals program: How we deliver on availability, security, and accessibility](https://github.blog/engineering/engineering-principles/githubs-engineering-fundamentals-program-how-we-deliver-on-availability-security-and-accessibility/)
+* [How GitHub uses GitHub Actions and Actions larger runners to build and test GitHub.com](https://github.blog/2023-09-26-how-github-uses-github-actions-and-actions-larger-runners-to-build-and-test-github-com/)
+* [The GitHub Security Lab’s journey to disclosing 500 CVEs in open source projects](https://github.blog/2023-09-21-the-github-security-labs-journey-to-disclosing-500-cves-in-open-source-projects/)
+* [CodeQL team uses AI to power vulnerability detection in code](https://github.blog/2023-09-12-codeql-team-uses-ai-to-power-vulnerability-detection-in-code/)
+* [Addressing GitHub’s recent availability issues](https://github.blog/2023-05-16-addressing-githubs-recent-availability-issues/)
+* [Building organization-wide governance and re-use for CI/CD and automation with GitHub Actions](https://github.blog/2023-04-05-building-organization-wide-governance-and-re-use-for-ci-cd-and-automation-with-github-actions/)
+* [Enabling branch deployments through IssueOps with GitHub Actions](https://github.blog/2023-02-02-enabling-branch-deployments-through-issueops-with-github-actions/)
 * [Using ChatOps to help Actions on-call engineers](https://github.blog/2021-12-01-using-chatops-to-help-actions-on-call-engineers/)
-
 * [Partitioning GitHub’s relational databases to handle scale](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/)
 * [Increasing developer happiness with GitHub code scanning](https://github.blog/2021-09-07-increasing-developer-happiness-github-code-scanning/)
 * [Why (and how) GitHub is adopting OpenTelemetry](https://github.blog/2021-05-26-why-and-how-github-is-adopting-opentelemetry/)
@@ -405,6 +437,38 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Major incidents & analysis reports
 
+* [GitHub Availability Report: August 2024](https://github.blog/news-insights/company-news/github-availability-report-august-2024/)
+* [GitHub Availability Report: July 2024](https://github.blog/news-insights/company-news/github-availability-report-july-2024/)
+* [GitHub Availability Report: June 2024](https://github.blog/news-insights/company-news/github-availability-report-june-2024/)
+* [GitHub Availability Report: May 2024](https://github.blog/news-insights/company-news/github-availability-report-may-2024/)
+* [GitHub Availability Report: April 2024](https://github.blog/news-insights/company-news/github-availability-report-april-2024/)
+* [GitHub Availability Report: March 2024](https://github.blog/news-insights/company-news/github-availability-report-march-2024/)
+* [GitHub Availability Report: February 2024](https://github.blog/news-insights/company-news/github-availability-report-february-2024/)
+* [GitHub Availability Report: January 2024](https://github.blog/news-insights/company-news/github-availability-report-january-2024/)
+* [GitHub Availability Report: December 2023](https://github.blog/news-insights/company-news/github-availability-report-december-2023/)
+* [GitHub Availability Report: November 2023](https://github.blog/news-insights/company-news/github-availability-report-november-2023/)
+* [GitHub Availability Report: October 2023](https://github.blog/news-insights/company-news/github-availability-report-october-2023/)
+* [GitHub Availability Report: September 2023](https://github.blog/news-insights/company-news/github-availability-report-september-2023/)
+* [GitHub Availability Report: August 2023](https://github.blog/2023-09-13-github-availability-report-august-2023/)
+* [GitHub Availability Report: July 2023](https://github.blog/2023-08-09-github-availability-report-july-2023/)
+* [GitHub Availability Report: June 2023](https://github.blog/2023-07-12-github-availability-report-june-2023/)
+* [GitHub Availability Report: May 2023](https://github.blog/2023-06-14-github-availability-report-may-2023/)
+* [GitHub Availability Report: April 2023](https://github.blog/2023-05-03-github-availability-report-april-2023/)
+* [GitHub Availability Report: March 2023](https://github.blog/2023-04-05-github-availability-report-march-2023/)
+* [GitHub Availability Report: February 2023](https://github.blog/2023-03-01-github-availability-report-february-2023/)
+* [GitHub Availability Report: January 2023](https://github.blog/2023-02-01-github-availability-report-january-2023/)
+* [GitHub Availability Report: December 2022](https://github.blog/2023-01-04-github-availability-report-december-2022/)
+* [GitHub Availability Report: November 2022](https://github.blog/2022-12-07-github-availability-report-november-2022/)
+* [GitHub Availability Report: October 2022](https://github.blog/2022-11-02-github-availability-report-october-2022/)
+* [GitHub Availability Report: September 2022](https://github.blog/2022-10-05-github-availability-report-september-2022/)
+* [GitHub Availability Report: August 2022](https://github.blog/2022-09-07-github-availability-report-august-2022/)
+* [GitHub Availability Report: July 2022](https://github.blog/2022-08-03-github-availability-report-july-2022/)
+* [GitHub Availability Report: June 2022](https://github.blog/2022-07-06-github-availability-report-june-2022/)
+* [GitHub Availability Report: May 2022](https://github.blog/2022-06-01-github-availability-report-may-2022/)
+* [GitHub Availability Report: April 2022](https://github.blog/2022-05-04-github-availability-report-april-2022/)
+* [GitHub Availability Report: March 2022](https://github.blog/2022-04-06-github-availability-report-march-2022/)
+* [GitHub Availability Report: February 2022](https://github.blog/2022-03-02-github-availability-report-february-2022/)
+* [GitHub Availability Report: January 2022](https://github.blog/2022-02-02-github-availability-report-january-2022/)
 * [GitHub Availability Report: December 2021](https://github.blog/2022-01-05-github-availability-report-december-2021/)
 * [GitHub Availability Report: November 2021](https://github.blog/2021-12-01-github-availability-report-november-2021/)
 * [GitHub Availability Report: October 2021](https://github.blog/2021-11-04-github-availability-report-october-2021/)
@@ -487,6 +551,8 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Introducing Skynet: Infrastructure as Code for Gojek](https://www.gojek.io/blog/introducing-skynet/)
+* [Scaling Our Geo-Search Service For 10x Load](https://www.gojek.io/blog/scaling-our-geo-search-service-for-10x-load/)
 * [Why We Swear by the RCA](https://www.gojek.io/blog/why-we-swear-by-the-rca)
 * [How We Upgrade Kubernetes on GKE](https://blog.gojek.io/how-we-upgrade-kubernetes-on-gke/)
 * [How We Monitor Apache Airflow in Production](https://blog.gojek.io/how-we-monitor-apache-airflow-in-production/)
@@ -498,12 +564,21 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
-* [Observability at Scale](https://developer.gs.com/blog/posts/observability-at-scale)
+* [SecDb Observability Journey](https://developer.gs.com/blog/posts/secdb-observability-journey)
+* [Chaos Testing an Application on AWS](https://developer.gs.com/blog/posts/chaos-testing-an-application-on-aws)
+* [Forecasting Capacity Outages Using Machine Learning to Bolster Application Resiliency](https://developer.gs.com/blog/posts/forecasting-capacity-outages-using-machine-learning-to-bolster-application-resiliency)
+* [Providing 99.9% Availability and Sub-Second Response Times with Sybase IQ Multiplexes by Using HAProxy](https://developer.gs.com/blog/posts/providing-999-availability-and-sub-second-response-times-with-sybase-iq-multiplexes-by-using-haproxy)
+* [Building Multi-Region Resiliency with Amazon RDS and Amazon Aurora](https://developer.gs.com/blog/posts/building-multi-region-resiliency-with-amazon-rds-and-amazon-aurora)
 * [Enabling Highly Available Trino Clusters at Goldman Sachs](https://developer.gs.com/blog/posts/enabling-highly-available-trino-clusters-at-goldman-sachs)
+* [Observability at Scale](https://developer.gs.com/blog/posts/observability-at-scale)
 * [Infrastructure and the Command Chain Pattern](https://developer.gs.com/blog/posts/infrastructure-and-command-chain-pattern)
 * [Mobile CICD with EC2 macOS](https://developer.gs.com/blog/posts/mobile-cicd-with-ec2-macos)
 * [Announcing CatchIT - Source Code Secret Scanner](https://developer.gs.com/blog/posts/catchit-source-code-secret-scanner)
 * [Building Platforms for Data Engineering](https://developer.gs.com/blog/posts/legend_data_engineering_platforms)
+
+### Videos
+
+* [Granular CPU Capacity Management at Scale with eBPF](https://www.usenix.org/conference/srecon24emea/presentation/brighton)
 
 </details>
 
@@ -512,6 +587,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Accelerating incident response using generative AI](https://security.googleblog.com/2024/04/accelerating-incident-response-using.html)
 * [Pitfalls and Patterns in Microservice Dependency Management](https://www.infoq.com/articles/pitfalls-patterns-microservice-dependency-management/)
 * [SRE Practices & Processes](https://sre.google/resources/#practicesandprocesses)
 * [Google site reliability using Go](https://go.dev/solutions/google/sitereliability)
@@ -521,6 +597,11 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Videos
 
+* [Get Your Non-SREs Oncall Ready!](https://www.usenix.org/conference/srecon24emea/presentation/van-winkel)
+* [Reliable Data for Large ML Models: Principles and Practices](https://www.usenix.org/conference/srecon23emea/presentation/mcglohon)
+* [New Grads Becoming New SREs: Catalyzing a “Circle of Life” in Ireland](https://www.usenix.org/conference/srecon23emea/presentation/petoff)
+* [SRE for [cyber]security](https://www.usenix.org/conference/srecon23emea/presentation/fischbach)
+* [Artificial Intelligence: How Much Will It Cost You?](https://www.usenix.org/conference/srecon23emea/presentation/underwood)
 * [What's the Difference Between DevOps and SRE? with Seth Vargo and Liz Fong-Jones of Google](https://youtu.be/uTEL8Ff1Zvk)
 * [Risk and Error Budgets’ with Seth Vargo and Liz Fong-Jones of Google](https://youtu.be/y2ILKr8kCJU)
 * [Pragmatic Automation’ with Max Luebbe of GCP](https://www.youtube.com/watch?v=oDcjAcFTFC0&t=0m56s)
@@ -609,10 +690,21 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 </details>
 
 <details>
+  <summary>IBM</summary>
+
+### Blog Posts
+
+* [What is Site Reliability Engineering (SRE)?](https://www.ibm.com/cloud/learn/site-reliability-engineering)
+* [AIOps tools and solutions](https://www.ibm.com/cloud/aiops)
+
+</details>
+
+<details>
   <summary>Indeed</summary>
 
 ### Blog Posts
 
+* [Indeed SRE: An Inside Look](https://engineering.indeedblog.com/blog/2022/04/sre/)
 * [Being Just Reliable Enough](https://engineering.indeedblog.com/blog/2019/10/being-just-reliable-enough/)
 * [Automating Indeed’s Release Process](https://engineering.indeedblog.com/blog/2017/03/automating-release-process/)
 * [Sloth, a Tool for Inducing Network Failures’ with Preetha Appan of Indeed.com](https://www.usenix.org/conference/srecon17americas/program/presentation/appan)
@@ -620,6 +712,15 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 ### Videos
 
 * [Are We Getting Better Yet? Progress Toward Safer Operations](https://www.usenix.org/conference/srecon20americas/presentation/elman)
+
+</details>
+
+<details>
+  <summary>Indeed</summary>
+
+### Blog Posts
+
+* [SRE Playbook - Practical Guide](https://blog.jiocinema.com/sre-playbook-practical-guide/)
 
 </details>
 
@@ -742,6 +843,12 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Who Watches the Watchmen? Keeping an Eye on Our Monitoring Systems](https://engineering.mercari.com/en/blog/entry/20220805-who-watches-the-watchmen-keeping-an-eye-on-our-monitoring-systems/)
+* [What the Microservices SRE Team are doing as SRE Evangelists](https://engineering.mercari.com/en/blog/entry/20220225-cdb2b6deff/)
+* [What it’s like to work as an embedded microservices SRE](https://engineering.mercari.com/en/blog/entry/20220228-work-as-an-embedded-microservices-sre/)
+* [The Merpay SRE Team: Past and future](https://engineering.mercari.com/en/blog/entry/20210831-a91c3dca9d/)
+* [Embedded SRE at Mercari](https://engineering.mercari.com/en/blog/entry/20220221-embedded-sre-at-mercari/)
+* [What the SRE team wants to achieve with the development team](https://engineering.mercari.com/en/blog/entry/20210129-embedded-sre/)
 * [DevSecOps: What Is It and Why Is It Gaining Momentum in the Industry?](https://engineering.mercari.com/en/blog/entry/20201214-devsecops-what-is-it-and-why-is-it-gaining-momentum-in-the-industry/)
 * [How do we share troubleshooting skills](https://engineering.mercari.com/en/blog/entry/2020-01-28-143339/)
 * [Datadog Dashboard at Scale w / Terraform](https://engineering.mercari.com/en/blog/entry/2019-12-09-122134/)
@@ -753,12 +860,15 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Leveraging AI for efficient incident response](https://engineering.fb.com/2024/06/24/data-infrastructure/leveraging-ai-for-efficient-incident-response/)
+* [Improving Meta’s SLO workflows with data annotations](https://engineering.fb.com/2022/08/29/developer-tools/improving-metas-slo-workflows-with-data-annotations/)
 * [SLICK: Adopting SLOs for improved reliability](https://engineering.fb.com/2021/12/13/production-engineering/slick/)
 * [More details about the October 4 outage](https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/)
 * [Update about the October 4th outage](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
 
 ### Videos
 
+* [Scheduling at Scale: eBPF Schedulers with Sched_ext](https://www.usenix.org/conference/srecon24emea/presentation/hodges)
 * [A Customer Service Approach to SRE](https://www.usenix.org/conference/srecon19emea/presentation/looney)
 * [How (Not) to Scale a Project: A Post-Mortem](https://www.usenix.org/conference/srecon19asia/presentation/bagnoli)
 * [Releasing the World's Largest Python Site Every 7 Minutes](https://www.usenix.org/conference/srecon19asia/presentation/wong-shuhong)
@@ -838,6 +948,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [FIT: Failure Injection Testing](https://netflixtechblog.com/fit-failure-injection-testing-35d8e2a9bb2)
 * [Announcing Security Monkey — AWS Security Configuration Monitoring and Analysis](https://netflixtechblog.com/announcing-security-monkey-aws-security-configuration-monitoring-and-analysis-1f2bfb001708)
 * [Lessons Netflix Learned from the AWS Outage](https://netflixtechblog.com/lessons-netflix-learned-from-the-aws-outage-deefe5fd0c04)
+* [Scryer: Netflix’s Predictive Auto Scaling Engine](https://netflixtechblog.com/scryer-netflixs-predictive-auto-scaling-engine-a3f8fc922270)
 
 ### Major incidents & analysis reports
 
@@ -845,6 +956,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
   
 ### Videos
 
+* [Achieving Excellence: SLO Thresholds That Transform Service Quality](https://www.usenix.org/conference/srecon24emea/presentation/ortiz)
 * [AWS re:Invent 2019: A day in the life of a Netflix engineer (NFX202)](https://www.youtube.com/watch?v=0QS1TWLooo0)
 * [When /bin/sh Attacks: Revisiting "Automate All the Things"](https://www.usenix.org/conference/srecon20americas/presentation/reed)
 * [How Did Things Go Right? Learning More from Incidents](https://www.usenix.org/conference/srecon19americas/presentation/kitchens)
@@ -886,6 +998,8 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [What Tools Do Site Reliability Engineers Use?](https://newrelic.com/blog/best-practices/best-sre-tools)
 * [A Day in the Life of a New Relic SRE](https://newrelic.com/blog/nerd-life/what-does-an-sre-do)
 * [7 Habits of Highly Successful Site Reliability Engineers](https://newrelic.com/blog/best-practices/site-reliability-engineer-sre-habits)
+* [Adopting the practice of SRE](https://newrelic.com/blog/best-practices/adopting-sre-practices)
+* [Using modern observability to establish a data-driven culture](https://newrelic.com/blog/best-practices/observability-data-driven-culture)
 
 </details>
 
@@ -894,8 +1008,25 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Blog Posts
 
+* [Engineering operational excellence, a case of continuous improvement](https://building.nubank.com.br/engineering-operational-excellence-case-continuous-improvement/)
 * [How we deal with technical incidents](https://building.nubank.com.br/how-we-deal-with-incidents/)
 * [How we do On-Call Rotations at Nubank](https://building.nubank.com.br/how-we-do-on-call-rotations-at-nubank/)
+* [How we scale our data platform efficiently and reliably](https://building.nubank.com.br/distributing-the-data-team-to-boost-innovation-reliably/)
+* [Why We Killed Our End-to-End Test Suite](https://building.nubank.com.br/why-we-killed-our-end-to-end-test-suite/)
+* [Automatic retraining for machine learning models: tips and lessons learned](https://building.nubank.com.br/automatic-retraining-for-machine-learning-models/)
+
+</details>
+
+<details>
+  <summary>OpenAI</summary>
+
+### Blog Posts
+
+* [March 20 ChatGPT outage: Here’s what happened](https://openai.com/blog/march-20-chatgpt-outage)
+* [OpenAI SRE and scaling explained easy.](https://medium.com/@Pran-Ker/openai-sre-miracle-19a33bdd3145)
+* [Scaling Kubernetes to 2,500 nodes](https://openai.com/research/scaling-kubernetes-to-2500-nodes)
+* [Scaling Kubernetes to 7,500 nodes](https://openai.com/research/scaling-kubernetes-to-7500-nodes)
+* [Scaling AI Infrastructure at OpenAI](https://www.youtube.com/watch?v=cK7qFZ9J6k0)
 
 </details>
 
@@ -962,6 +1093,17 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 </details>
 
 <details>
+  <summary>Prezi</summary>
+
+### Blog Posts
+
+* [How to avoid global outage — Seamlessly migrating DaemonSet labels](https://engineering.prezi.com/intro-4727024fc2c1)
+* [In search of speed — debugging Elasticsearch performance](https://engineering.prezi.com/in-search-of-speed-debugging-elasticsearch-performance-9ce8edf4af40)
+* [Prometheus at Prezi: replacing 10 years of anti-patterns](https://engineering.prezi.com/prometheus-at-prezi-replacing-10-years-of-anti-patterns-e3c2317e6ca)
+
+</details>
+
+<details>
   <summary>Red Hat</summary>
 
 ### Blog Posts
@@ -969,6 +1111,15 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [From Ops to SRE: Evolution of the OpenShift Dedicated Team](https://www.openshift.com/blog/from-ops-to-sre-evolution-of-the-openshift-dedicated-team)
 * [5 Agile Practices Every SRE Team Should Adopt](https://www.openshift.com/blog/5-agile-practices-every-sre-team-should-adopt)
 * [7 Best Practices for Writing Kubernetes Operators: An SRE Perspective](https://www.openshift.com/blog/7-best-practices-for-writing-kubernetes-operators-an-sre-perspective)
+
+</details>
+
+<details>
+  <summary>Reddit</summary>
+
+### Videos
+
+* [Noisy Neighbors, through Networking](https://www.usenix.org/conference/srecon24emea/presentation/treffer)
 
 </details>
 
@@ -997,6 +1148,10 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [THE EVOLUTION OF SECURITY AT RIOT](https://technology.riotgames.com/news/evolution-security-riot)
 * [RUNNING AN AUTOMATED TEST PIPELINE FOR THE LEAGUE CLIENT UPDATE](https://technology.riotgames.com/news/running-automated-test-pipeline-league-client-update)
 * [AUTOMATED TESTING FOR LEAGUE OF LEGENDS](https://technology.riotgames.com/news/automated-testing-league-legends)
+
+### Videos
+
+* [Riot Games: Evolution of Observability at the Gaming Company](https://www.usenix.org/conference/srecon24emea/presentation/moreira)
 
 </details>
 
@@ -1052,6 +1207,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Videos
 
+* [Enhancing Elasticsearch Performance: Innovative Reindexing Strategies Using Dedicated Nodes and KEDA Autoscalers](https://www.usenix.org/conference/srecon24emea/presentation/vayghan)
 * [Network Monitor: A Tale of ACKnowledging an Observability Gap](https://www.usenix.org/conference/srecon19emea/presentation/gedge)
 * [Expect the Unexpected: Preparing SRE Teams for Responding to Novel Failures](https://www.usenix.org/conference/srecon19emea/presentation/arthorne)
 * [Advanced Napkin Math: Estimating System Performance from First Principles](https://www.usenix.org/conference/srecon19emea/presentation/eskildsen)
@@ -1085,6 +1241,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ### Videos
 
+* [Scaling Chef Emotionally](https://www.usenix.org/conference/srecon23emea/presentation/pemberton)
 * [Slack at the Edge](https://www.usenix.org/conference/srecon19asia/presentation/pemberton)
 * [What Breaks Our Systems: A Taxonomy of Black Swans](https://www.usenix.org/conference/srecon19americas/presentation/nolan-taxonomy)
 
@@ -1121,6 +1278,8 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Hands-Off Deployment with Canary](https://developers.soundcloud.com/blog/hands-off-deployment-with-canary)
 * [Prometheus has come of age – a reflection on the development of an open-source project](https://developers.soundcloud.com/blog/prometheus-has-come-of-age-a-reflection-on-the-development-of-an-open-source-project)
 * [Prometheus: Monitoring at SoundCloud](https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud)
+* [What I Learned in One Year as an SRE Trainee](https://developers.soundcloud.com/blog/sre-trainee)
+* [Tests Under the Magnifying Lens](https://developers.soundcloud.com/blog/tests-under-the-magnifying-lens)
 
 </details>
 
@@ -1167,6 +1326,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [A deeper dive into our May 2019 security incident](https://stackoverflow.blog/2021/01/25/a-deeper-dive-into-our-may-2019-security-incident/)
 * [Guest Post - Failing over without falling over](https://stackoverflow.blog/2020/10/23/adrian-cockcroft-aws-failover-chaos-engineering-fault-tolerance-distaster-recovery/)
 * [How We Built Our Blog](https://stackoverflow.blog/2015/07/02/how-we-built-our-blog/)
+* [Stack Overflow Frees Up Engineering Time with Netlify](https://www.netlify.com/blog/stack-overflow-case-study/)
 
 ### Videos
 
@@ -1190,7 +1350,8 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 ### Blog Posts
 
 * [Fast and flexible observability with canonical log lines](https://stripe.com/blog/canonical-log-lines)
-* [Introducing Veneur: high performance and global aggregation for Datadog](https://stripe.com/blog/engineering/page/3)
+* [Fast builds, secure builds. Choose two.](https://stripe.com/blog/fast-secure-builds-choose-two)
+* [Introducing Veneur: high performance and global aggregation for Datadog](https://stripe.com/blog/introducing-veneur-high-performance-and-global-aggregation-for-datadog)
 
 ### Videos
 
@@ -1207,9 +1368,6 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Ɔhaos Ǝnginǝǝring @ Target - Part 2](https://tech.target.com/2019/05/09/chaos-engineering-at-Target.html)
 * [Ɔhaos Ǝnginǝǝring @ Target - Part 1](https://tech.target.com/2019/02/05/chaos-engineering-at-Target.html)
 * [GoAlert - Your Future Open Source, On-Call Notification Product](https://tech.target.com/2019/02/25/introducing-goalert.html)
-* [On Infrastructure at Scale: A Cascading Failure of Distributed Systems](https://tech.target.com/2019/01/14/cascading-failure-of-distributed-systems.html)
-* [Distributed Troubleshooting](https://tech.target.com/2017/04/05/distributed-troubleshooting.html)
-* [Outage Resolution Through Automation](https://tech.target.com/2014/12/29/outage-resolution-through-automation.html)
 
 </details>
 
@@ -1303,6 +1461,11 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Blameless Incident Reviews at Udemy](https://medium.com/udemy-engineering/blameless-incident-reviews-at-udemy-aa4773dbaf0b)
 * [How Udemy does Build Engineering](https://medium.com/udemy-engineering/how-udemy-does-build-engineering-9722e98a4208)
 
+### Videos
+
+* [Monitoring Systems as a Service – Walking the Line between Giving Your Devs Good M&O and Setting All Your Money on Fire](https://www.usenix.org/conference/srecon24emea/presentation/ocallaghan)
+* [Udemy - How to Do SRE When You Have No SRE](https://www.usenix.org/conference/srecon19emea/presentation/ocallaghan)
+
 </details>
 
 <details>
@@ -1373,6 +1536,11 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Tracing SRE’s journey in Zalando - Part II](https://engineering.zalando.com/posts/2021/09/sre-journey-part2.html)
 * [Tracing SRE’s journey in Zalando - Part III](https://engineering.zalando.com/posts/2021/10/sre-journey-part3.html)
 
+### Vidoes
+
+* [The Frontiers of Reliability Engineering](https://www.usenix.org/conference/srecon24emea/presentation/hartmann)
+* [Service Level Objectives](https://www.usenix.org/conference/srecon24emea/presentation/discussion-slos)
+
 </details>
 
 <details>
@@ -1381,6 +1549,7 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 ### Blog Posts
 
 * [Infrastructure monitoring with Prometheus at Zerodha](https://zerodha.tech/blog/infra-monitoring-at-zerodha/)
+* [Logging at Zerodha](https://zerodha.tech/blog/logging-at-zerodha/)
 
 </details>
 
@@ -1404,10 +1573,10 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [BuzzFeed - Optimizing for Learning](https://www.usenix.org/conference/srecon19americas/presentation/mcdonald)
 * [BT - Challenges of Starting an SRE Team from Scratch in an Enterprise](https://www.usenix.org/conference/srecon20americas/presentation/narvas)
 * [Cloudflare - Support Operations Engineering: Scaling Developer Products to the Millions](https://www.usenix.org/conference/srecon19emea/presentation/ali)
+* [Cloudlock - My Life as a Solo SRE](https://www.usenix.org/conference/srecon19emea/presentation/murphy)
 * [Hudson River Trading - Fixing On-Call When Nobody Thinks It's (Too) Broken](https://www.usenix.org/conference/srecon19americas/presentation/lykke)
 * [IBM - Why Automating Everything Adds to Your Toil](https://www.usenix.org/conference/srecon19emea/presentation/thorne)
 * [Genesys - The Smallest Possible SRE Team](https://www.usenix.org/conference/srecon20americas/presentation/thomas)
-* [G-Research - My Life as a Solo SRE](https://www.usenix.org/conference/srecon19emea/presentation/murphy)
 * [Grafana Labs - SRE in the Third Age](https://www.usenix.org/conference/srecon19emea/presentation/rabenstein)
 * [Kenna Security - Building a Scalable Monitoring System](https://www.usenix.org/conference/srecon19emea/presentation/struve)
 * [Lightstep - Building Service Ownership Using Documentation, Telemetry, and a Chance to Make Things Better](https://www.usenix.org/conference/srecon20americas/presentation/spoonhower)
@@ -1420,7 +1589,6 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Twitter - Hiring Great SREs](https://www.usenix.org/conference/srecon19emea/presentation/rutkin)
 * [United States Digital Service - Lessons Learned in Black Box Monitoring 25,000 Endpoints and Proving the SRE Team's Value](https://www.usenix.org/conference/srecon19americas/presentation/wieczorek)
 * [Unity Technologies - Being Reasonable about SRE](https://www.usenix.org/conference/srecon19emea/presentation/urbanec)
-* [Udemy - How to Do SRE When You Have No SRE](https://www.usenix.org/conference/srecon19emea/presentation/ocallaghan)
 * [Vanguard - Cloudy with a Chance of Chaos](https://www.usenix.org/conference/srecon20americas/presentation/yakomin)
 * [WeWork - Learning from Learnings: Anatomy of Three Incidents](https://www.usenix.org/conference/srecon19americas/presentation/shoup)
 * [Zendesk - Latency and Availability Error Budgets Done Right at Scale](https://www.usenix.org/conference/srecon20americas/presentation/moyer)
@@ -1429,33 +1597,39 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 
 ## Resources
 
-### Books
+### 📚 Books
 
-* [__New!__ Enterprise Roadmap to SRE](https://learning.oreilly.com/library/view/enterprise-roadmap-to/9781098117740/)
-* [Building Secure & Reliable Systems](https://www.oreilly.com/library/view/building-secure-and/9781492083115/) | [Read free online version hosted by Google](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf)
-* [Site Reliability Engineering](https://www.oreilly.com/library/view/site-reliability-engineering/9781491929117/) | [Read free online version hosted by Google](https://sre.google/sre-book/table-of-contents/)
-* [The Site Reliability Workbook from Google](https://www.oreilly.com/library/view/the-site-reliability/9781492029496/) | [Read free online version hosted by Google](https://sre.google/workbook/table-of-contents/)
-* [Training Site Reliability Engineers](https://www.oreilly.com/library/view/training-site-reliability/9781492076018/) | [Read free online version hosted by Google](https://static.googleusercontent.com/media/sre.google/en//static/pdf/training-sre.pdf)
-* [97 Things Every SRE Should Know](https://www.oreilly.com/library/view/97-things-every/9781492081487/) | [Complimentary Copy from Nginx](https://www.nginx.com/resources/library/97-things-every-sre-should-know/)
-* [SLO Adoption and Usage in Site Reliability Engineering](https://www.oreilly.com/library/view/slo-adoption-and/9781492075370/) | [Read free online version hosted by Google](https://sre.google/static/pdf/slo-adoption-and-usage-in-sre.pdf)
-* [Practical Site Reliability Engineering](https://www.oreilly.com/library/view/practical-site-reliability/9781788839563/)
-* [Implementing Service Level Objectives](https://www.oreilly.com/library/view/implementing-service-level/9781492076803/)
-* [Chaos Engineering](https://www.oreilly.com/library/view/chaos-engineering/9781492043850/)
-* [Seeking SRE](https://www.oreilly.com/library/view/seeking-sre/9781491978856/)
-* [Security Chaos Engineering](https://www.oreilly.com/library/view/security-chaos-engineering/9781492080350/)
-* [Chaos Engineering Observability](https://www.oreilly.com/library/view/chaos-engineering-observability/9781492051046/)
-* [Database Reliability Engineering](https://www.oreilly.com/library/view/database-reliability-engineering/9781491925935/)
-* [What Is SRE?](https://www.oreilly.com/library/view/what-is-sre/9781492054429/)
-* [Database Reliability Engineering: What, Why, and How?](https://www.oreilly.com/library/view/database-reliability-engineering/9781492030942/)
-* [Observability Engineering](https://www.oreilly.com/library/view/observability-engineering/9781492076438/)
-* [Chaos Engineering: Site reliability through controlled disruption](https://www.manning.com/books/chaos-engineering)
-* [Incident Metrics in SRE](https://www.oreilly.com/library/view/incident-metrics-in/9781098103163/) | [Read free online version hosted by Google](https://sre.google/resources/practices-and-processes/incident-metrics-in-sre/)
-* [Engineering Reliable Mobile Applications](https://www.oreilly.com/library/view/engineering-reliable-mobile/9781492057444/)
-* [Monitoring the SRE Golden Signals](https://www.slideshare.net/OpsStack/how-to-monitoring-the-sre-golden-signals-ebook)
-* [Site Reliability Engineering: Philosophies, habits, and tools for SRE success](https://newrelic.com/resources/ebooks/site-reliability-engineering) | [Portable version](https://newrelic.com/sites/default/files/2021-08/site-reliability-engineering-handbook.pdf)
-* [97 Things Every Cloud Engineer Should Know](https://www.redhat.com/rhdc/managed-files/cl-97-things-cloud-engineers-know-e-book-oreilly-f28602-202105-en.pdf)
-* [Real-World SRE](https://www.packtpub.com/product/real-world-sre/9781788628884)
-* [Hands-on Site Reliability Engineering](https://bpbonline.com/products/hands-on-site-reliability-engineering?_pos=1&_sid=839999550&_ss=r)
+* 📔 [Site Reliability Engineering](https://amzn.to/4jNrENP) | [Read free online version hosted by Google](https://sre.google/sre-book/table-of-contents/)
+* 📔 [The Site Reliability Workbook from Google](https://amzn.to/3CyRCEa) | [Read free online version hosted by Google](https://sre.google/workbook/table-of-contents/)
+* 📔 [Seeking SRE](https://amzn.to/3WSmSVu)
+* 📔 [Building Secure & Reliable Systems](https://amzn.to/4gty0yV)
+* 📔 [Enterprise Roadmap to SRE](https://learning.oreilly.com/library/view/enterprise-roadmap-to/9781098117740/)
+* 📔 [Training Site Reliability Engineers](https://www.oreilly.com/library/view/training-site-reliability/9781492076018/) | [Read free online version hosted by Google](https://github.com/google/googlesre/blob/main/publications/Training_Site_Reliability_Engineers.pdf)
+* 📔 [97 Things Every SRE Should Know](https://amzn.to/4hPCktG)
+* 📔 [SLO Adoption and Usage in Site Reliability Engineering](https://www.oreilly.com/library/view/slo-adoption-and/9781492075370/)
+* 📔 [Practical Site Reliability Engineering](https://amzn.to/4aOFQSL)
+* 📔 [Implementing Service Level Objectives](https://amzn.to/40Ow2nc)
+* 📔 [Database Reliability Engineering](https://amzn.to/4hPCYr6)
+* 📔 [What Is SRE?](https://www.oreilly.com/library/view/what-is-sre/9781492054429/)
+* 📔 [Database Reliability Engineering: What, Why, and How?](https://www.oreilly.com/library/view/database-reliability-engineering/9781492030942/)
+* 📔 [Observability Engineering](https://amzn.to/4hSrVNP)
+* 📔 [Incident Metrics in SRE](https://www.oreilly.com/library/view/incident-metrics-in/9781098103163/) | [Read free online version hosted by Google](https://sre.google/resources/practices-and-processes/incident-metrics-in-sre/)
+* 📔 [Engineering Reliable Mobile Applications](https://www.oreilly.com/library/view/engineering-reliable-mobile/9781492057444/)
+* 📔 [Monitoring the SRE Golden Signals](https://www.slideshare.net/OpsStack/how-to-monitoring-the-sre-golden-signals-ebook)
+* 📔 [Site Reliability Engineering: Philosophies, habits, and tools for SRE success](https://newrelic.com/resources/ebooks/site-reliability-engineering) | [Portable version](https://newrelic.com/sites/default/files/2021-08/site-reliability-engineering-handbook.pdf)
+* 📔 [97 Things Every Cloud Engineer Should Know](https://www.redhat.com/rhdc/managed-files/cl-97-things-cloud-engineers-know-e-book-oreilly-f28602-202105-en.pdf)
+* 📔 [Real-World SRE](https://amzn.to/4hQNhuK)
+* [Hands-on Site Reliability Engineering](https://amzn.to/3EwwNK8)
+* 📔 [High Performance SRE: Automation, error budgeting, RPAs, SLOs, and SLAs with site reliability engineering](https://amzn.to/4hMN4ZE)
+* 📔 [Chaos Engineering: System Resiliency in Practice](https://amzn.to/40OSVa8)
+* 📔 [Chaos Engineering: Site reliability through controlled disruption](https://amzn.to/40PbMSm)
+* 📔 [Security Chaos Engineering: Sustaining Resilience in Software and Systems](https://amzn.to/4hQeTjS)
+* 📔 [Learning Chaos Engineering: Discovering and Overcoming System Weaknesses Through Experimentation](https://amzn.to/4hRDkgz)
+* 📔 [Chaos Engineering Observability](https://www.oreilly.com/library/view/chaos-engineering-observability/9781492051046/)
+* 📔 [Becoming a Rockstar SRE](https://amzn.to/42MOqPZ)
+* 📔 [Becoming SRE, First Steps Toward Reliability for You and Your Organization](https://amzn.to/4jMBU95)
+* 📔 [Establishing SRE Foundations: A Step-by-Step Guide to Introducing Site Reliability Engineering in Software Delivery Organizations](https://amzn.to/4i87f4D)
+* 📔 [The Art of Site Reliability Engineering (SRE) with Azure: Building and Deploying Applications That Endure](https://amzn.to/4hP2VXx)
 
 ### Events
 
@@ -1466,7 +1640,9 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [cdCon](https://events.linuxfoundation.org/cdcon/)
   * [cdCon 2021 Playlist](https://www.youtube.com/watch?v=MQU4fKhau1w&list=PL2KXbZ9-EY9TWsV-Jz8ARSt1ko0Yd36ah)
   * [cdCon 2020 Playlist](https://www.youtube.com/watch?v=qLMrcEj-R9Y&list=PL2KXbZ9-EY9RbYURc1CDrOJpbrPMtc0P7)
-
+* [Conf42](https://www.conf42.com/sre2022)
+  * [Conf42 2022 Premiere](https://www.youtube.com/watch?v=FclEiSDfX14&ab_channel=Conf42)
+  
 ### Other Resources
 
 #### Awesome Lists
@@ -1476,7 +1652,6 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering)
 * [Awesome Monitoring](https://github.com/crazy-canux/awesome-monitoring)
 * [Awesome Observability](https://github.com/adriannovegil/awesome-observability)
-* [Awesome Sysadmin](https://project-awesome.org/n1trux/awesome-sysadmin)
 * [Awesome MLOps](https://github.com/visenger/awesome-mlops)
 * [ML-Ops.org](https://ml-ops.org/)
 
@@ -1489,11 +1664,11 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [School of SRE from LinkedIn](https://linkedin.github.io/school-of-sre/)
 * [Stripe Increment Magazine Issue 16 on Reliability](https://increment.com/reliability/)
 * [AWS Observability Recipes](https://aws-observability.github.io/aws-o11y-recipes/)
+* [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin)
 
 #### Incidents & postmortems
 
 * [The Verica Open Incident Database](https://www.thevoid.community/)
-* [Postmortem.io](https://postmortem.io/)
 * [Postmortem Templates](https://github.com/dastergon/postmortem-templates)
 * [Incident Review and Postmortem Best Practices](https://blog.pragmaticengineer.com/postmortem-best-practices/)
 
@@ -1515,9 +1690,19 @@ _Note to readers: This list refers to some of the articles, posts, videos, tools
 * [Howtheydevops](https://github.com/bregman-arie/howtheydevops)
 * [Howtheyaws](https://github.com/upgundecha/howtheyaws)
 
+## Contributors
+
+<a href="https://github.com/upgundecha/howtheysre/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=upgundecha/howtheysre" />
+</a>
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+## Stargazers Over Time
+
+[![Stargazers over time](https://starchart.cc/upgundecha/howtheysre.svg?background=%23FFFFFF&axis=%23333333&line=%23139a15)](https://starchart.cc/upgundecha/howtheysre)
 
 ## License
 
@@ -1528,4 +1713,4 @@ related or neighboring rights to this work.
 
 ---
 
-If you decide to use this anywhere please give a credit to [@upgundecha](https://www.twitter.com/upgundecha) on twitter, also If you like my work, check out other projects on my Github.
+If you decide to use this anywhere, please credit [@upgundecha](https://www.x.com/upgundecha) on X. Also, if you like my work, check out my other projects on GitHub.

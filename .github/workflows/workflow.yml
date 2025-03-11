@@ -14,14 +14,14 @@ jobs:
       uses: nosborn/github-action-markdown-cli@v1.1.1
       with:
         files: README.md
-        config_file: ".markdownlint.json"
+        config_file: "./test/.markdownlint.json"
    
     - name: Node setup
       uses: actions/setup-node@v1
       with:
-        node-version: '12.x'
+        node-version: '16.x'
     
     - name: Run Checklist
       shell: 'script -q -e -c "bash {0}"'
-      run: npm ci && npx eslint test/. && npm run test
+      run: cd test && npm ci && npx eslint . && npm run test
       
